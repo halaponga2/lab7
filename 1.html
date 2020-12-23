@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a = 5;
+        let str = "string";
+        let flag = true;
+        let b = null;
+        console.log(a+a); //число складывается с числом
+        console.log(a+str); //число складывается со строкой, преобразуется в строку
+        console.log(a+flag); //число складывается с булевой переменной, булевая переменная преобразуется в число
+        console.log(a+b); //число складывается с null, null преобразуется в число
+        console.log(str+str); //строка складывается со строкой
+        console.log(str+flag); //строка складывается с булевой переменной, булевая переменная преобразуется в строку
+        console.log(str+b); //строка складывается с null, null преобразуется в строку
+        console.log (flag+flag); //булевая переменная складывается с булевой переменной, они преобразуются в числа
+        console.log(flag+b); //булевая переменная складывается с null, они преобразуются в число
+        console.log(b+b); //null складывается с null, они преобразуются в число
+        
+    </script>
+</body>
+</html>
